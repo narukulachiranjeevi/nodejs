@@ -1,8 +1,10 @@
 
-const add = (a, b) => {
+exports.add =  (a, b) => {
     return a + b;
   };
-  const sub=(a,b)=>{
+ exports.sub= (a,b)=>{
     return a-b;
   };
-  module.exports = add;
+exports.mul=(a,b) => {
+    return a*b+5;
+  }
